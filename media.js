@@ -1,8 +1,9 @@
-var notas = [9.0, 4.9, 3.5]; // Array que recebe as notas.
+var notas = [9.0, 4.0, 3.5]; // Array que recebe as notas.
 var soma = 0;
 
 // Verificando se as notas estão dentro do intervalo válido de 0 a 10.
-for (var i = 0; i < 1; i++) {
+for (var i = 0; i < 1; i++) 
+{
     if (notas < 0 || notas > 10) 
     {
         console.log("Por favor, insira notas válidas entre 0 e 10.");
@@ -21,3 +22,4 @@ var situacao = (media >= mediaMinima) ? "O aluno foi aprovado!" : "O aluno foi r
 // Exibindo o resultado
 console.log("Média do aluno: " + media.toFixed(2)); // Exibe a média com 2 casas decimais
 console.log("Situação do aluno: " + situacao);
+console.log("Notas:" + notas);
