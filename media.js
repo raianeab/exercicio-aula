@@ -1,6 +1,7 @@
-var nota1 = 8; // Variavel que recebe a 1º nota.
-var nota2 = 10; // Variavel que recebe a 2º nota.
-var nota3 = 5 // Variavel que recebe a 3º nota.
+// Variaveis que recebe as notas.
+var nota1 = 8; 
+var nota2 = 10;
+var nota3 = 5
 
 // Verificando se as notas estão dentro do intervalo válido de 0 a 10.
 for (var i = 0; i < 1; i++) {
