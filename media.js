@@ -1,4 +1,4 @@
-// Variaveis que recebe as notas.
+// Variáveis que recebe as notas.
 var nota1 = 8; 
 var nota2 = 10;
 var nota3 = 5
